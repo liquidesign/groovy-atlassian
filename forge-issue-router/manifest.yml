@@ -1,0 +1,4 @@
+app id ari:cloud:jira::app/000000-0000-0000-0000-000000000000
+app name Issue Router by Reporter Department
+trigger on jira:issue_created event calling on-issue-created function
+permissions for read:jira-work, read:jira-user, write:jira-work
